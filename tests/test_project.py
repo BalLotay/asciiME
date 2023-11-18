@@ -1,7 +1,7 @@
 import pytest
-from project import convert_RGB_to_12_scale
-from project import modify_array
-from project import print_ASCII_to_terminal
+from ..project import convert_RGB_to_12_scale
+from ..project import modify_array
+from ..project import print_ASCII_to_terminal
 
 
 def test_convert_RGB_to_12_scale():
